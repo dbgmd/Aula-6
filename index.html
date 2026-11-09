@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corinthians</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #0d0d0d;
+            color: #e1e1e6;
+            padding: 2rem 1rem;
+        }
+
+        .card {
+            max-width: 768px;
+            margin: 0 auto;
+            background: #141414;
+            border: 1px solid #29292e;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .hero {
+            background: linear-gradient(to bottom, #000, #141414);
+            border-bottom: 3px solid #c41212;
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.25rem;
+            letter-spacing: -0.02em;
+        }
+
+        .hero .subtitle {
+            color: #c41212;
+            font-weight: 700;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 0.25rem;
+        }
+
+        .content {
+            padding: 2rem 1.5rem;
+        }
+
+        .shield-img {
+            display: block;
+            max-width: 120px;
+            margin: 0 auto 1.5rem;
+            filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.6));
+        }
+
+        p {
+            line-height: 1.6;
+            color: #a8a8b3;
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            border-left: 3px solid #c41212;
+            padding-left: 0.75rem;
+            margin: 2rem 0 1rem;
+        }
+
+        .trophy-list {
+            padding-left: 1.25rem;
+            color: #a8a8b3;
+        }
+
+        .trophy-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            background: #1e1e1e;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .data-table th, 
+        .data-table td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid #29292e;
+        }
+
+        .data-table th {
+            background: #18181b;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #a8a8b3;
+        }
+
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+    <article class="card">
+        <header class="hero">
+            <h1>SCCP</h1>
+            <p class="subtitle">Timão</p>
+        </header>
+
+        <main class="content">
+            <img src="corinthians.png" alt="Escudo do Corinthians" class="shield-img">
+
+            <p>O Sport Club Corinthians Paulista foi fundado no dia 1º de setembro de 1910, simplesmente o goat do Brasil, curintia imbativel.</p>
+
+            <h2>Principais Conquistas</h2>
+            <ul class="conquistas">
+                <li>2 Bi-Campeonatos Mundiais da FIFA (2000, 2012)</li>
+                <li>1 Taça Libertadores da América (2012 - Invicto)</li>
+                <li>7 Campeonatos Brasileiros</li>
+                <li>3 Taças da Copa do Brasil</li>
+                <li>30 Campeonatos Paulistas</li>
+            </ul>
+
+            <h2>Ídolos Históricos</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Nome do Jogador</th>
+                        <th>Posição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Doutor Sócrates</td>
+                        <td>Meio-Campista</td>
+                    </tr>
+                    <tr>
+                        <td>Marcelinho Carioca</td>
+                        <td>Meio-Campista</td>
+                    </tr>
+                    <tr>
+                        <td>Cássio Ramos</td>
+                        <td>Goleiro</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </article>
+
+</body>
+</html>
